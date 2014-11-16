@@ -5,10 +5,6 @@ class people::agentk::karabiner {
 
     include karabiner
 
-    # launch and add login-item
-    # include karabiner::login_item
-
-    # set the contents of the private.xml file.
     karabiner::private_xml { 'private.xml':
       content => '<?xml version="1.0"?>
 <root>

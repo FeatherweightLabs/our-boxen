@@ -9,7 +9,7 @@ class people::agentk {
     # $my       = "${home}/my"
     $dotfiles = "${my}/dotfiles"
 
-    notify { 'hello world': }
+    # notify { 'hello world': }
 
     # file { $my:
     #   ensure  => directory
