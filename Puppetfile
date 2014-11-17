@@ -33,7 +33,7 @@ github "boxen", "3.7.0"
 
 # Support for default hiera data in modules
 
-github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
+github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -60,8 +60,18 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "osx",         "2.7.1"
-github "chrome",      "1.2.0"
-github "karabiner",   "1.0.6"
-mod "property_list_key", "0.2.1", :github_tarball => "glarizza/puppet-property_list_key"
-github "alfred",      "1.4.0"
+github "alfred",             "1.4.0"
+github "chrome",             "1.2.0"
+github "codekit",            "1.0.5"
+github "better_touch_tools", "3.0.0"
+github "karabiner",          "1.0.6"
+github "omnifocus",          "1.1.0"
+github "omnigraffle",        "1.3.1"
+github "onepassword",        "1.1.4"
+github "seil",               "1.0.4", :repo => "featherweightlabs/puppet-seil"
+github "spotify",            "1.0.2"
+github "sublime_text",       "1.0.2"
+github "osx",                "2.7.1"
+github "property_list_key",  "0.2.1", :repo => "glarizza/puppet-property_list_key"
+github "textexpander",       "1.1.0"
+# mod 'featherweightlabs/seil', :path => "#{ENV['HOME']}/src/featherweightlabs/puppet-seil"

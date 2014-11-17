@@ -4,6 +4,11 @@ GITHUBTARBALL
     alfred (1.4.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-better_touch_tools
+  specs:
+    better_touch_tools (3.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.7.0)
@@ -12,6 +17,11 @@ GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-codekit
+  specs:
+    codekit (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -64,6 +74,21 @@ GITHUBTARBALL
     nodejs (3.8.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-omnifocus
+  specs:
+    omnifocus (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-omnigraffle
+  specs:
+    omnigraffle (1.3.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-onepassword
+  specs:
+    onepassword (1.1.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -94,14 +119,34 @@ GITHUBTARBALL
     ruby (8.1.7)
 
 GITHUBTARBALL
+  remote: boxen/puppet-spotify
+  specs:
+    spotify (1.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text
+  specs:
+    sublime_text (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-textexpander
+  specs:
+    textexpander (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: featherweightlabs/puppet-seil
+  specs:
+    seil (1.0.4)
 
 GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
@@ -121,12 +166,14 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
   specs:
-    module_data (0.0.3)
+    module_data (0.0.4)
 
 DEPENDENCIES
   alfred (= 1.4.0)
+  better_touch_tools (= 3.0.0)
   boxen (= 3.7.0)
   chrome (= 1.2.0)
+  codekit (= 1.0.5)
   dnsmasq (= 2.0.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
@@ -136,9 +183,12 @@ DEPENDENCIES
   hub (= 1.3.0)
   inifile (= 1.1.1)
   karabiner (= 1.0.6)
-  module_data (= 0.0.3)
+  module_data (= 0.0.4)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
+  omnifocus (= 1.1.0)
+  omnigraffle (= 1.3.1)
+  onepassword (= 1.1.4)
   openssl (= 1.0.0)
   osx (= 2.7.1)
   phantomjs (= 2.3.0)
@@ -146,7 +196,11 @@ DEPENDENCIES
   property_list_key (= 0.2.1)
   repository (= 2.3.0)
   ruby (= 8.1.7)
+  seil (= 1.0.4)
+  spotify (= 1.0.2)
   stdlib (= 4.2.1)
+  sublime_text (= 1.0.2)
   sudo (= 1.0.0)
+  textexpander (= 1.1.0)
   xquartz (= 1.2.1)
 
