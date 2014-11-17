@@ -5,6 +5,7 @@ class people::agentk::applications {
     include better_touch_tools
     include chrome
     include codekit
+    include dropbox
     include omnifocus
     include omnigraffle
     include onepassword
